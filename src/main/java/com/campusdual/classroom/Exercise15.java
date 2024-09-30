@@ -1,6 +1,11 @@
 package com.campusdual.classroom;
 
+import java.text.DateFormat;
+import java.text.FieldPosition;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 public class Exercise15 {
 
@@ -9,7 +14,6 @@ public class Exercise15 {
 				Calendar.getInstance().getTime());
 		fm.printSpecificData();
 		System.out.println(fm.getLocation());
-
 	}
 
 }
